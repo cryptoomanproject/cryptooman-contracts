@@ -1,0 +1,24 @@
+{
+  "name": "cryptooman-contracts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@aave/protocol-v2": "^1.0.1",
+    "@truffle/hdwallet-provider": "^1.4.1",
+    "node-gyp": "^8.1.0",
+    "pify": "^5.0.0",
+    "web3": "^1.3.6"
+  },
+  "devDependencies": {
+    "mocha": "^8.3.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC"
+}
